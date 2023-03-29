@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="yTdgg?`.J^X|f}%}t5qi">set hand to</variable></variables><block type="device_button_event" id="wISBZ9G=`[5,SsY_b#wt" x="0" y="0"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_clear_display" id="jC@xq8fOg6E=.(7mFK.!"></block></statement></block><block type="device_gesture_event" id="CCHw~x$ZA9HTWM$$hjOy" x="246" y="6"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="variables_set" id="{8,]}-ITm/PoZgIBpS@+"><field name="VAR" id="yTdgg?`.J^X|f}%}t5qi">set hand to</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="logic_random" id="v_CA03yN-JIww6{DJpYF"></block></value><next><block type="controls_if" id="Ipq6iaB#teN47uB(2B}@"><value name="IF0"><shadow type="logic_boolean" id="b^Ipfx1g_htrbh+I5qnw"><field name="BOOL">TRUE</field></shadow></value><statement name="DO0"><block type="device_show_leds" id="=Ui2[Wd)!]l`K[ylMDCZ"><field name="LEDS">`
+        . . . . . 
+        . . . . # 
+        . # . # . 
+        . . # . . 
+        . . . . .
+        `</field></block></statement><next><block type="controls_if" id="%UlT5$n@({n:pz-Ce}Qn"><value name="IF0"><shadow type="logic_boolean" id="Jm_zrg]Zo}QcK,w[KbfB"><field name="BOOL">FALSE</field></shadow></value><statement name="DO0"><block type="device_show_leds" id="~;hC6*N!5OI-@]v:x7`R"><field name="LEDS">`
+        # . . . # 
+        . # . # . 
+        . . # . . 
+        . # . # . 
+        # . . . #
+        `</field></block></statement></block></next></block></next></block></statement></block></xml>
